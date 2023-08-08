@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(_02045798-46d0-4e8d-9d9b-10e26840e132.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    background-color: rgb(234, 0, 255);
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.me {
+    background-color: aqua;
+    font-size: 1rem;
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    color: white;
+}
+nav ul li a:hover{
+    color: blue;
+    font-size: 1.2rem;
+}
+/*body{
+    background-color: rgb(255, 0, 106);
+    
+}*/
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+}
+
+.first>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2rem;
+    margin-right: 30px ;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    color: purple;
+}
+.second {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+    font-size: 2rem;
+}
+.secondleftSection div ul li{
+    list-style: none;
+    color: rgb(190, 25, 236);
+}
+.second>div {
+    width: 30%;
+}
+
+.leftsecondSection {
+    font-size: 2rem;
+    margin-right: 30px ;
+}
+
+.rightsecondSection img {
+    width: 80%;
+}
+.third {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+    font-size: 2rem;
+}
+.thirdrightSection div ul li{
+    list-style: none;
+    color: rgb(169, 25, 236);
+}
+.third>div {
+    width: 30%;
+}
+
+.thirdrightSection {
+    font-size: 2rem;
+    margin-right: 30px ;
+}
+
+.thirdleftSection img {
+    width: 80%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 122px;
+}
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 23px;
+}
+main hr {
+    border: 0;
+    background: #281dee;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.box1{
+    width: 320px;
+    height: 330px;
+    padding: 10px;
+    border: 5px ridge rgb(22, 156, 213);
+    margin: 0;
+    color: purple;
+    text-shadow: 2px 2px 5px rgb(81, 53, 81);
+}
+.fourleftSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 2rem;
+}
+.fourleftSection:first-child{
+    align-self: center;
+}
+.box1 img{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+footer {
+    background-color: gray;
+}
+footer .footer-rights {
+    color:black;
+}
