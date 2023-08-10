@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
 
-/* Basic reset */
 * {
 	margin: 0;
 	padding: 0;
@@ -12,14 +11,12 @@
   text-align:center;
 }
 
-/* BG gradient */
 html {
 	background: #229ad7;
   background-image: linear-gradient(to bottom, rgba(34,156,219,1) 0%, rgba(10,114,187,1) 100%);
   background-attachment: fixed;
 }
 
-/* Calculator */
 #calculator {
 	width: 325px;
 	height: auto;
@@ -30,13 +27,9 @@ html {
 	border-radius: 5px;
 }
 
-/* Top */
 .top  span.clear{
 	float: left;
 }
-
-/* Screen styling */
-
 
 .top .screen {
   height:90px;
@@ -45,7 +38,6 @@ html {
 	background: rgba(154, 185, 188, 0.8);
 	border-radius: 5px;
   margin-bottom:10px;
-	/* Typography */
 	font-size: 30px;
 	line-height: 90px;
 	color: white;
@@ -53,12 +45,10 @@ html {
   overflow:auto;
 }
 
-/* Clear floats */
 .keys  {
   overflow: hidden;
 }
 
-/* Keys */
 .keys span, .top span.clear {
 	float: left;
 	position: relative;
@@ -80,7 +70,6 @@ html {
 	transition: all 0.2s ease;
 }
 
-/* Unique key styling */
 .keys span.operator {
 	background: #536ea5;
 	margin-right: 0;
@@ -126,8 +115,6 @@ span.clear {
 	box-shadow: 0px 4px #d3545d;
 	color: white;
 }
-
-/* Simulating "pressed" effect */
 .keys span:active {
 	box-shadow: 0px 0px #6b54d3;
 	top: 4px;
